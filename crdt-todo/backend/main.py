@@ -16,7 +16,9 @@ app = FastAPI(title="CRDT Todo API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["http://localhost:3000",
+                   "https://collab-to-do-crdt-functionality.vercel.app/"
+                   ],
     allow_methods=["*"],
     allow_headers=["*"],
 )
