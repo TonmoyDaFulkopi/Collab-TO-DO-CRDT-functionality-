@@ -20,7 +20,7 @@ type Op =
   | { type: "upsert"; todo: Todo }
   | { type: "delete"; todo: Todo };
 
-const WS_URL = "ws://collab-to-do-crdt-functionality.onrender.com/ws";
+const WS_URL = process.env.NEXT_PUBLIC_WS_URL || "ws://localhost:8000/ws";
 
 function merge(state: Map<string, Todo>, todo: Todo): Map<string, Todo> {
   const existing = state.get(todo.id);
