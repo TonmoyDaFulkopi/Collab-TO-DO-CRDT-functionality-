@@ -5,6 +5,13 @@
 /.pnp
 .pnp.js
 
+node_modules/
+.next/
+dist/
+build/
+coverage/
+.env
+
 # testing
 /coverage
 
