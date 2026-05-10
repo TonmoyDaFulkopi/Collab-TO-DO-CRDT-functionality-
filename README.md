@@ -1,5 +1,6 @@
 # CRDT Collaborative Todo App
 
+![Project Screenshot](crdt-todo/images/image2.png)
 ![Project Screenshot](crdt-todo/images/image.png)
 
 A minimal real-time collaborative todo app using **LWW-CRDT** (Last-Write-Wins).  
