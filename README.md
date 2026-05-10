@@ -1,7 +1,8 @@
 # CRDT Collaborative Todo App
 
-![Project Screenshot](crdt-todo/images/image2.png)
 ![Project Screenshot](crdt-todo/images/image.png)
+<img src="crdt-todo/images/image2.jpeg" alt="Project Screenshot" width="400"/>
+
 
 A minimal real-time collaborative todo app using **LWW-CRDT** (Last-Write-Wins).  
 Backend: **FastAPI + WebSockets** | Frontend: **Next.js 14 + Tailwind**
